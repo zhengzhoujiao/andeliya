@@ -1,0 +1,244 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 5.33333333vw;
+}
+body {
+  width: 18.75rem;
+  height: 33.35rem;
+}
+.header {
+  position: fixed;
+  height: 3.5rem;
+  width: 100%;
+  background: white;
+  top: 0;
+}
+.header .hd {
+  width: 18.75rem;
+  height: 0.75rem;
+  line-height: 0;
+}
+.header .hd img {
+  width: 18rem;
+  height: 0.475rem;
+  margin-left: 0.375rem;
+  margin-top: 0.25rem;
+}
+.header .tit {
+  height: 2.75rem;
+  width: 18.75rem;
+  font-family: PingFang-SC-Bold;
+  font-size: 0.9rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #030202;
+  text-align: center;
+  line-height: 2.75rem;
+}
+.zw1 {
+  width: 18.75rem;
+  height: 3.5rem;
+}
+.content {
+  width: 18.75rem;
+  height: 27.25rem;
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  overflow: hidden;
+}
+.content .card {
+  display: flex;
+  margin-top: 0.5rem;
+  height: 5.25rem;
+  width: 17.5rem;
+  background: white;
+  border-radius: 0.375rem;
+  align-items: center;
+}
+.content .card .rd {
+  flex: 1;
+  height: 4rem;
+  text-align: center;
+  line-height: 4rem;
+}
+.content .card .rd img {
+  width: 0.675rem;
+  height: 0.7rem;
+  opacity: 0.56;
+}
+.content .card .pic {
+  flex: 2.5;
+  height: 4rem;
+}
+.content .card .pic img {
+  width: 4rem;
+  height: 4rem;
+}
+.content .card .xx {
+  flex: 6.5;
+  height: 4rem;
+}
+.content .card .xx > span:nth-child(1) {
+  font-family: PingFang-SC-Medium;
+  font-size: 0.725rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #000000;
+  display: block;
+}
+.content .card .xx > span {
+  margin-left: 0.5rem;
+  margin-top: 0.25rem;
+}
+.content .card .xx > span:nth-child(2) {
+  font-family: PingFang-SC-Medium;
+  font-size: 0.525rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #6c6c6c;
+  display: block;
+}
+.content .card .xx .num {
+  width: 100%;
+  height: 1.375rem;
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+.content .card .xx .num > span {
+  font-family: PingFang-SC-Bold;
+  font-size: 0.725rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #fa0c0c;
+  margin-left: 0.3rem;
+}
+.content .card .xx .num .chance {
+  margin-left: 4rem;
+  border: 1px solid black;
+  width: 3.775rem;
+  height: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+}
+.content .card .xx .num .chance .jia {
+  width: 1rem;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+}
+.content .card .xx .num .chance .jian {
+  width: 1rem;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+}
+.content .card .xx .num .chance input {
+  display: inline-block;
+  width: 1rem;
+  height: 0.95rem;
+  text-align: center;
+  border: 1px solid black;
+  margin-top: -0.025rem;
+}
+.zw {
+  width: 18.75rem;
+  height: 2.7rem;
+}
+.jsuan {
+  position: fixed;
+  width: 18.75rem;
+  height: 2.5rem;
+  background: white;
+  bottom: 3rem;
+  line-height: 2.5rem;
+}
+.jsuan img {
+  margin-left: 0.5rem;
+  width: 0.725rem;
+  height: 0.725rem;
+}
+.jsuan > span:nth-child(2) {
+  margin-left: 0.25rem;
+  font-family: PingFang-SC-Medium;
+  font-size: 0.7rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #474747;
+}
+.jsuan > span:nth-child(3) {
+  margin-left: 8rem;
+  font-size: 0.75rem;
+  font-weight: normal;
+  font-stretch: normal;
+  color: #070707;
+}
+.jsuan > div {
+  margin-left: 0.375rem;
+  width: 3.95rem;
+  height: 1.675rem;
+  background-color: #f93f06;
+  border-radius: 0.75rem;
+  display: inline-block;
+  font-family: PingFang-SC-Medium;
+  font-size: 0.6rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #fdfbfa;
+  text-align: center;
+  line-height: 1.675rem;
+}
+footer {
+  width: 18.75rem;
+  height: 2.7rem;
+  background: white;
+  position: fixed;
+  bottom: 0;
+}
+footer ul {
+  height: 2.7rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer ul li:nth-child(3) {
+  color: #f69736;
+}
+footer ul li {
+  width: 1.7rem;
+  height: 1.75rem;
+  list-style: none;
+  font-size: 0.55rem;
+  color: #8c8484;
+  text-align: center;
+  overflow: hidden;
+}
+footer ul li img {
+  margin: 0 auto;
+  height: 1rem;
+  display: block;
+}
+footer ul li img:nth-child(1) {
+  margin-left: 0.3rem;
+}
+footer ul li .pic {
+  margin: 0 auto;
+  height: 1rem;
+  width: 1rem;
+  background: url('../img/图层3.png') no-repeat;
+  background-size: 10.075rem 1rem;
+  background-position: -9.25rem;
+}

@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 5.33333333vw;
+}
+body {
+  width: 18.75rem;
+  height: 38.1rem;
+}
+.header {
+  position: fixed;
+  height: 3.5rem;
+  width: 18.75rem;
+  background: white;
+}
+.header .hd {
+  width: 18.75rem;
+  height: 0.75rem;
+  line-height: 0;
+}
+.header .hd img {
+  width: 18rem;
+  height: 0.475rem;
+  margin-left: 0.375rem;
+  margin-top: 0.25rem;
+}
+.header .tit {
+  height: 2.75rem;
+  width: 18.75rem;
+  font-family: PingFang-SC-Bold;
+  font-size: 0.9rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #030202;
+  text-align: center;
+  line-height: 2.75rem;
+}
+.header .tit img {
+  position: absolute;
+  width: 0.525rem;
+  height: 0.9rem;
+  left: 0.75rem;
+  top: 1.7rem;
+}
+.zw {
+  width: 18.75rem;
+  height: 3.5rem;
+}
+.content {
+  width: 18.75rem;
+  height: 34.75rem;
+  background: #f6f6f6;
+}
+.content .cpic {
+  width: 18.75rem;
+  height: 10rem;
+  background: url(../img/图层1.png) no-repeat;
+  background-size: 18.75rem 10rem;
+}
+.content .ppgs {
+  width: 18.75rem;
+  height: 7.775rem;
+  background: white;
+}
+.content .ppgs > span:nth-child(1) {
+  display: block;
+  margin-top: 0.375rem;
+  margin-left: 0.625rem;
+  font-family: PingFang-SC-Bold;
+  font-size: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #020202;
+  font-weight: 800;
+}
+.content .ppgs > span:nth-child(2) {
+  display: block;
+  font-family: PingFang-SC-Regular;
+  font-size: 0.6rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 0.85rem;
+  letter-spacing: 0px;
+  color: #050404;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+}
+.content .mdzp {
+  margin-top: 0.375rem;
+  width: 18.75rem;
+  height: 6.25rem;
+  background: white;
+}
+.content .mdzp > div:nth-child(1) {
+  font-family: PingFang-SC-Bold;
+  font-size: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #020202;
+  font-weight: 800;
+  margin-top: 0.375rem;
+  margin-left: 0.625rem;
+}
+.content .mdzp .zs {
+  display: flex;
+  width: 18rem;
+  height: 4.15rem;
+  margin: 0 auto;
+  margin-top: 0.25rem;
+  justify-content: space-around;
+}
+.content .mdzp .zs div img {
+  width: 5.5rem;
+  height: 4.15rem;
+  vertical-align: middle;
+}
+.content .lxfs {
+  margin-top: 0.375rem;
+  width: 18.75rem;
+  background: white;
+}
+.content .lxfs div:nth-child(1) {
+  font-family: PingFang-SC-Bold;
+  font-size: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #020202;
+  font-weight: 800;
+  margin-top: 0.375rem;
+  margin-left: 0.625rem;
+}
+.content .lxfs div:nth-child(2) {
+  margin: 0 auto;
+  margin-top: 0.5rem;
+  background: url(../img/图层5.png) no-repeat;
+  width: 17rem;
+  height: 8.35rem;
+  background-size: 17rem 8.35rem;
+}

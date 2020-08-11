@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 5.33333333vw;
+}
+.dl {
+  position: fixed;
+  height: 3.5rem;
+  width: 100%;
+  background: white;
+}
+.dl .hd {
+  width: 100%;
+  height: 0.75rem;
+  line-height: 0;
+}
+.dl .hd img {
+  width: 18rem;
+  height: 0.475rem;
+  margin-left: 0.375rem;
+  margin-top: 0.25rem;
+}
+.dl .tit {
+  height: 2.75rem;
+  width: 100%;
+  font-family: PingFang-SC-Bold;
+  font-size: 0.9rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #030202;
+  text-align: center;
+  line-height: 2.75rem;
+}
+.dl .tit img {
+  position: absolute;
+  width: 0.525rem;
+  height: 0.9rem;
+  left: 0.75rem;
+  top: 1.7rem;
+}
+.ct {
+  width: 100%;
+  height: 43.35rem;
+}
+.ct .zw {
+  width: 100%;
+  height: 3.5rem;
+}
+.ct .lunbo {
+  width: 18.75rem;
+  height: 6.9rem;
+  background: url(../img/图层1.png) no-repeat;
+  background-size: 18.75rem 6.9rem;
+}
+.ct .mune {
+  width: 100%;
+  height: 33.075rem;
+  background: #f6f6f6;
+}
+.ct .mune .mid {
+  display: flex;
+  margin-right: 0.825rem;
+  margin-left: 0.825rem;
+  height: 9.85rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.ct .mune .mid > div {
+  vertical-align: middle;
+  display: inline-block;
+  width: 8.25rem;
+  height: 9.85rem;
+  margin-top: 0.85rem;
+  overflow: hidden;
+}
+.ct .mune .mid > div img {
+  display: block;
+  width: 8.225rem;
+  height: 6.45rem;
+}
+.ct .mune .mid > div .name {
+  background: white;
+  width: 100%;
+  height: 2.125rem;
+  font-family: PingFang-SC-Medium;
+  font-size: 0.75rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #030202;
+  line-height: 2.125rem;
+  padding-left: 0.5rem;
+}
+.ct .mune .mid > div .bot {
+  width: 100%;
+  height: 1.225rem;
+  background: white;
+  line-height: 0.625rem;
+}
+.ct .mune .mid > div .bot span {
+  display: inline-block;
+  font-family: PingFang-SC-Bold;
+  font-size: 0.75rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #fb0606;
+  margin-left: 0.5rem;
+}
+.ct .mune .mid > div .bot img {
+  float: right;
+  margin-top: 0.125rem;
+  margin-right: 0.625rem;
+  width: 0.6rem;
+  height: 0.625rem;
+}

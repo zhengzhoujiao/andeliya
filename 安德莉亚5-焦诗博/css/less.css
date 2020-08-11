@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 5.33333333vw;
+}
+body {
+  width: 18.75rem;
+  height: 33.35rem;
+}
+.header {
+  position: fixed;
+  height: 3.5rem;
+  width: 18.75rem;
+  background: white;
+}
+.header .hd {
+  width: 18.75rem;
+  height: 0.75rem;
+  line-height: 0;
+}
+.header .hd img {
+  width: 18rem;
+  height: 0.475rem;
+  margin-left: 0.375rem;
+  margin-top: 0.25rem;
+}
+.header .tit {
+  height: 2.75rem;
+  width: 18.75rem;
+  font-family: PingFang-SC-Bold;
+  font-size: 0.9rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #030202;
+  text-align: center;
+  line-height: 2.75rem;
+}
+.header .tit img {
+  position: absolute;
+  width: 0.525rem;
+  height: 0.9rem;
+  left: 0.75rem;
+  top: 1.7rem;
+}
+.zw {
+  width: 18.75rem;
+  height: 3.525rem;
+}
+.content {
+  width: 18.75rem;
+  height: 29.875rem;
+  background: #f6f6f6;
+  overflow: hidden;
+}
+.content .bd {
+  height: 19.575rem;
+  width: 18.75rem;
+}
+.content .bd .bdt > div {
+  width: 18.75rem;
+  margin-top: 0.125rem;
+  height: 2.3rem;
+  background: white;
+  line-height: 2.3rem;
+}
+.content .bd .bdt > div span:nth-child(1) {
+  float: left;
+  font-family: PingFang-SC-Medium;
+  font-size: 0.65rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #020202;
+  margin-left: 0.5rem;
+}
+.content .bd .bdt > div span:nth-child(2) {
+  float: right;
+  font-family: PingFang-SC-Medium;
+  font-size: 0.55rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #5e5c5c;
+  margin-right: 0.5rem;
+}
+.content .bd > div:nth-child(2) {
+  margin-top: 0.375rem;
+  font-family: PingFang-SC-Bold;
+  font-size: 0.7rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #020202;
+  margin-left: 0.5rem;
+}
+.content .bd textarea {
+  border: none;
+  margin-top: 0.375rem;
+  width: 18.75rem;
+  height: 9.375rem;
+  line-height: 2.5rem;
+  padding-left: 0.5rem;
+  font-family: PingFang-SC-Medium;
+  font-size: 0.55rem;
+  font-weight: normal;
+  font-stretch: normal;
+  color: #7f7e7e;
+}
+.content .btm {
+  margin: 0 auto;
+  width: 16.125rem;
+  height: 2.15rem;
+  background: red;
+  text-align: center;
+  line-height: 2.15rem;
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #ffffff;
+}

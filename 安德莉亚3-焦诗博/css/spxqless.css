@@ -1,0 +1,252 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 18.75rem;
+  height: 46.525rem;
+}
+html {
+  font-size: 5.33333333vw;
+}
+.dl {
+  position: fixed;
+  height: 3.5rem;
+  width: 100%;
+  background: white;
+}
+.dl .hd {
+  width: 100%;
+  height: 0.75rem;
+  line-height: 0;
+}
+.dl .hd img {
+  width: 18rem;
+  height: 0.475rem;
+  margin-left: 0.375rem;
+  margin-top: 0.25rem;
+}
+.dl .tit {
+  height: 2.75rem;
+  width: 100%;
+  font-family: PingFang-SC-Bold;
+  font-size: 0.9rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #030202;
+  text-align: center;
+  line-height: 2.75rem;
+}
+.dl .tit img {
+  position: absolute;
+  width: 0.525rem;
+  height: 0.9rem;
+  left: 0.75rem;
+  top: 1.7rem;
+}
+.zw {
+  width: 100%;
+  height: 3.5rem;
+}
+.content {
+  width: 100%;
+  height: 40.475rem;
+  background: #f6f6ff;
+}
+.content .pic img {
+  width: 100%;
+  height: 11.825rem;
+  vertical-align: middle;
+}
+.message3 img {
+  width: 100%;
+  height: 11.825rem;
+  vertical-align: middle;
+  margin-top: 0.75rem;
+}
+.content .name {
+  width: 100%;
+  height: 3.5rem;
+  background: white;
+}
+.content .name > span {
+  display: block;
+  font-family: PingFang-SC-Bold;
+  font-size: 0.9rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #030202;
+  font-weight: 700;
+  padding-top: 0.5rem;
+  margin-left: 0.25rem;
+}
+.content .name .num {
+  width: 100%;
+  height: 1.25rem;
+  margin-top: 0.25rem;
+}
+.content .name .num span:nth-child(1) {
+  float: left;
+  font-family: PingFang-SC-Bold;
+  font-size: 0.9rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #ff0101;
+  margin-left: 0.25rem;
+  font-weight: 700;
+}
+.content .name .num span:nth-child(2) {
+  float: right;
+  font-family: PingFang-SC-Medium;
+  font-size: 0.55rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #494848;
+  margin-right: 0.5rem;
+}
+.content .message1 {
+  width: 100%;
+  height: 1.9rem;
+  background: white;
+  margin-top: 0.35rem;
+  font-family: PingFang-SC-Medium;
+  font-size: 0.6rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #000000;
+  font-weight: 700;
+  line-height: 1.9rem;
+}
+.content .message2 {
+  width: 100%;
+  height: 1.9rem;
+  background: white;
+  margin-top: 0.35rem;
+  font-family: PingFang-SC-Medium;
+  font-size: 0.55rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #010101;
+  font-weight: 700;
+  line-height: 1.9rem;
+}
+.content .message2 img {
+  width: 0.325rem;
+  height: 0.55rem;
+  transform: rotate(180deg);
+  float: right;
+  margin-top: 0.675rem;
+  margin-right: 0.5rem;
+}
+.content .message3 {
+  width: 18.75rem;
+  height: 17.4rem;
+}
+.content .message3 .tt {
+  width: 100%;
+  height: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .message3 .tt .line {
+  display: inline-block;
+  width: 1.925rem;
+  height: 0.025rem;
+  background-color: #000000;
+  opacity: 0.49;
+}
+.content .message3 .tt .ttf {
+  display: inline-block;
+  font-family: PingFang-SC-Bold;
+  font-size: 0.7rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #090909;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  font-weight: 700;
+}
+.content .message3 .bd {
+  margin-left: 0.5rem;
+  font-family: PingFang-SC-Medium;
+  font-size: 0.625rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.25rem;
+  color: #090909;
+}
+.zw2 {
+  width: 100%;
+  height: 2.5rem;
+  position: relative;
+  z-index: -1;
+}
+footer {
+  width: 100%;
+  height: 2.5rem;
+  position: fixed;
+  display: flex;
+  z-index: 9999;
+  bottom: 0;
+  background: white;
+}
+footer .left {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .left div {
+  height: 1.5rem;
+}
+footer .left div img {
+  width: 0.85rem;
+  height: 0.825rem;
+  display: block;
+}
+footer .left div span {
+  display: block;
+  font-family: PingFang-SC-Medium;
+  font-size: 0.45rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #090909;
+}
+footer .right {
+  flex: 1;
+  display: flex;
+  height: 2.5rem;
+}
+footer .right .car {
+  flex: 1;
+  background: #fe6804;
+  font-family: PingFang-SC-Medium;
+  font-size: 0.75rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #ffffff;
+  line-height: 2.5rem;
+  text-align: center;
+}
+footer .right .buy {
+  flex: 1;
+  background: red;
+  font-family: PingFang-SC-Medium;
+  font-size: 0.75rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #ffffff;
+  line-height: 2.5rem;
+  text-align: center;
+}

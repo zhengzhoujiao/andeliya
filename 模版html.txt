@@ -1,0 +1,20 @@
+    <!-- 头 -->
+    <div class="header">
+        <div class="hd"><img src="../安德莉亚4-焦诗博/img/苹果6黑.png" alt=""></div>
+        <div class="tit">产品列表</div>
+    </div>
+    <!-- 内容区 -->
+    <div class="content"></div>
+    <!-- <div class="zw"></div> -->
+    <!-- 页脚导航 -->
+    <footer>
+        <div class="why">
+            <ul>
+                <li><img src="img/图层1.png" alt="">首页</li>
+                <li><img src="img/图层2.png" alt="">分类</li>
+                <li><img src="img/图层3.png" alt="">购物车</li>
+                <li><img src="img/图层4.png" alt="">我的</li>
+            </ul>            
+        </div>
+
+    </footer>
